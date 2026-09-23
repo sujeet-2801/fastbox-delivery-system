@@ -1,10 +1,3 @@
-"""Simulate one day of FastBox deliveries and write report.json.
-
-Each package is assigned to the nearest agent. The agent travels from its
-current location to the warehouse, then to the package destination. Efficiency
-is the average distance per delivered package; a lower value is better.
-"""
-
 import argparse
 import json
 import math
